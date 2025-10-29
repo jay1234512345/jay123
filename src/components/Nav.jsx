@@ -1,0 +1,3 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+export default function Nav(){ return (<nav className="bg-blue-600 text-white px-6 py-3 shadow-md"><div className="container mx-auto flex justify-between items-center"><Link to="/" className="text-2xl font-bold">My App</Link><div className="space-x-4"><Link to="/" className="hover:text-gray-200">Home</Link><Link to="/users" className="hover:text-gray-200">Users</Link><Link to="/products" className="hover:text-gray-200">Products</Link><Link to="/bills" className="hover:text-gray-200">Bills</Link><Link to="/categories" className="hover:text-gray-200">Categories</Link></div></div></nav>) }
